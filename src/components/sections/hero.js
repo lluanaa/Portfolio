@@ -59,19 +59,20 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi! My name is</h1>;
+  const one = <h1>Olá! Meu nome é</h1>;
   const two = <h2 className="big-heading">Luana da Silva.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = <h3 className="big-heading">Construo coisas para a web.</h3>;
   const four = (
     <>
       <p>
         <p>
-          I’m a full stack developer passionate about creating dynamic and responsive digital
-          solutions for web and mobile. I specialize in building user-friendly interfaces and robust
-          back-end systems. Currently, I’m focused on enhancing my expertise in crafting accessible
-          and high-quality applications while contributing to impactful projects.
+          Sou uma desenvolvedora full stack apaixonado por criar soluções digitais dinâmicas e
+          responsivas para web e dispositivos móveis. Sou especialista em construir interfaces
+          amigáveis ao usuário e sistemas de back-end robustos. Atualmente, estou focado em
+          aprimorar minha expertise na criação de aplicativos acessíveis e de alta qualidade, ao
+          mesmo tempo em que contribuo para projetos impactantes.
         </p>
-        at{' '}
+        @{' '}
         <a href="https://sischef.com/" target="_blank" rel="noreferrer">
           Sistema Sischef
         </a>

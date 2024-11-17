@@ -144,24 +144,25 @@ const About = () => {
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">Sobre Mim</h2>
 
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              Hello! My name is Luana and I enjoy creating engaging and interactive digital
-              solutions. My interest in web development began when I discovered the joy of crafting
-              dynamic web pages and learning the fundamentals of HTML, CSS, and JavaScript. Since
-              then, I've been exploring ways to turn ideas into functional and visually appealing
-              experiences.
+              Olá! Meu nome é Luana e eu gosto de criar soluções digitais interativas e envolventes.
+              Meu interesse em desenvolvimento web começou quando descobri a alegria de criar
+              páginas web dinâmicas e aprender os fundamentos de HTML, CSS e JavaScript. Desde
+              então, tenho explorado maneiras de transformar ideias em experiências funcionais e
+              visualmente atraentes.
             </p>
 
             <p>
-              Fast-forward to today, I’ve had the opportunity to work on a variety of projects,
-              ranging from full-stack web and mobile development to database management and API
-              integrations. My main focus now is creating accessible and inclusive digital
-              experiences while collaborating on impactful solutions, currently as a developer at{' '}
+              Avançando para hoje, tive a oportunidade de trabalhar em uma variedade de projetos,
+              que vão desde desenvolvimento web e mobile full-stack até gerenciamento de banco de
+              dados e integrações de API. Meu foco principal agora é criar experiências digitais
+              acessíveis e inclusivas enquanto colaboro em soluções impactantes, atualmente como
+              desenvolvedor na{' '}
               <a href="https://sischef.com/" target="_blank" rel="noreferrer">
                 Sischef
               </a>
@@ -177,7 +178,7 @@ const About = () => {
               &amp; React.
             </p> */}
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:</p>
           </div>
 
           <ul className="skills-list">
