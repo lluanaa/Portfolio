@@ -125,7 +125,22 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript',
+    'Java',
+    'JSF',
+    'TypeScript',
+    'React',
+    'React Native',
+    'Node.js',
+    'MongoDB',
+    'Git',
+    'HTML',
+    'CSS',
+    'Electron',
+    'Tailwind CSS',
+    'PostgreSQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,31 +150,32 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Luana and I enjoy creating engaging and interactive digital
+              solutions. My interest in web development began when I discovered the joy of crafting
+              dynamic web pages and learning the fundamentals of HTML, CSS, and JavaScript. Since
+              then, I've been exploring ways to turn ideas into functional and visually appealing
+              experiences.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today, I’ve had the opportunity to work on a variety of projects,
+              ranging from full-stack web and mobile development to database management and API
+              integrations. My main focus now is creating accessible and inclusive digital
+              experiences while collaborating on impactful solutions, currently as a developer at{' '}
+              <a href="https://sischef.com/" target="_blank" rel="noreferrer">
+                Sischef
+              </a>
+              .
             </p>
 
-            <p>
+            {/* <p>
               I also recently{' '}
               <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
                 launched a course
               </a>{' '}
               that covers everything you need to build a web app with the Spotify API using Node
               &amp; React.
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
@@ -173,7 +189,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

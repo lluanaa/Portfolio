@@ -1,27 +1,27 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'lstylik13@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/lluanaa',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/lluan.aa/',
     },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
-    },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/bchiang7',
+    // },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/luana-da-silva-fb/',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io/bchiang7',
+    // },
   ],
 
   navLinks: [
@@ -32,10 +32,6 @@ module.exports = {
     {
       name: 'Experience',
       url: '/#jobs',
-    },
-    {
-      name: 'Work',
-      url: '/#projects',
     },
     {
       name: 'Contact',
