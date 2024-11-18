@@ -1,15 +1,14 @@
 ---
 date: '3'
-title: 'Chat em Tempo Real'
-cover: './course-card.png'
+title: 'Dashboard'
+cover: './Dashboard.png'
 external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
-  - Node.js
-  - Express
-  - Socket.io
-  - jQuery
-  - EJS
+  - TypeScript
+  - JavaScript
+  - Material-UI
+  - React
 ---
 
-Desenvolvi um chat em tempo real utilizando Socket.io para comunicação instantânea entre usuários. A aplicação permite criar salas de conversa, enviar mensagens em tempo real e exibir notificações dinâmicas para novas mensagens.
+Estou desenvolvendo um dashboard interativo. A aplicação apresenta uma interface moderna e responsiva, com gráficos dinâmicos, tabelas de dados e integração com APIs para visualização e gerenciamento de informações.

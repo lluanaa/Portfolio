@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Mapa de Calor'
-cover: './demo.png'
+cover: './Mapa.jpg'
 tech:
   - React
   - Javascript
