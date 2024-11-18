@@ -150,11 +150,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Olá! Meu nome é Luana e eu gosto de criar soluções digitais interativas e envolventes.
-              Meu interesse em desenvolvimento web começou quando descobri a alegria de criar
-              páginas web dinâmicas e aprender os fundamentos de HTML, CSS e JavaScript. Desde
-              então, tenho explorado maneiras de transformar ideias em experiências funcionais e
-              visualmente atraentes.
+              Gosto de criar soluções digitais interativas e desenvolver experiências online. Meu
+              interesse em desenvolvimento web começou quando descobri a alegria de criar páginas
+              web dinâmicas e aprender os fundamentos de HTML, CSS e JavaScript. Desde então, tenho
+              explorado maneiras de transformar ideias em experiências funcionais e visualmente
+              atraentes.
             </p>
 
             <p>
@@ -166,7 +166,6 @@ const About = () => {
               <a href="https://sischef.com/" target="_blank" rel="noreferrer">
                 Sischef
               </a>
-              .
             </p>
 
             {/* <p>
@@ -190,7 +189,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.png"
+              src="../../images/me.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

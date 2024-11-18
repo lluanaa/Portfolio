@@ -66,13 +66,11 @@ const Hero = () => {
     <>
       <p>
         <p>
-          Sou uma desenvolvedora full stack apaixonado por criar soluções digitais dinâmicas e
+          Sou uma desenvolvedora Full Stack apaixonada por criar soluções digitais dinâmicas e
           responsivas para web e dispositivos móveis. Sou especialista em construir interfaces
-          amigáveis ao usuário e sistemas de back-end robustos. Atualmente, estou focado em
-          aprimorar minha expertise na criação de aplicativos acessíveis e de alta qualidade, ao
-          mesmo tempo em que contribuo para projetos impactantes.
-        </p>
-        @{' '}
+          amigáveis ao usuário e sistemas de back-end robustos. Atualmente, estou focada em
+          aprimorar minhas habilidades na criação de aplicativos acessíveis e de alta qualidade.
+        </p>{' '}
         <a href="https://sischef.com/" target="_blank" rel="noreferrer">
           Sistema Sischef
         </a>

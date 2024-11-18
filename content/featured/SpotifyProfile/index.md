@@ -1,15 +1,12 @@
 ---
 date: '2'
-title: 'Spotify Profile'
+title: 'Mapa de Calor'
 cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
 tech:
   - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Javascript
+  - Google Maps API
+  - Java
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Desenvolvi uma aplicação que utiliza a API do Google Maps para gerar um mapa de calor interativo. Essa ferramenta exibe a quantidade de pedidos em diferentes áreas, filtrados por data, proporcionando uma visualização clara e intuitiva dos dados geográficos.
