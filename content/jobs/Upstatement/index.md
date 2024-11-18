@@ -1,13 +1,17 @@
 ---
-date: '2018-05-14'
-title: 'Lead Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2023-10-31'
+title: 'Software Developer'
+company: 'Sischef'
+location: 'Francisco Beltrão, PR'
+range: 'Oct 2023 - Present'
+url: 'https://sischef.com/'
 ---
 
-- Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more
-- Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements
-- Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders
-- Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship
+- Developing web and mobile solutions for restaurant management systems, focusing on Java for the back-end and React/JavaScript for the front-end.
+- Creating dynamic and responsive interfaces to enhance user navigation and usability, as well as developing Android apps using React Native for mobile management.
+- Implementing unit tests with JUnit to ensure the robustness and quality of the code.
+- Querying, modeling, and maintaining data in PostgreSQL and MongoDB to ensure data integrity and availability.
+- Collaborating on the efficient integration between back-end and front-end, ensuring smooth data flow and system interaction.
+- Integrating third-party APIs to expand functionality and improve user experience.
+- Using Git for version control and team collaboration.
+- Identifying and resolving bugs and performance issues, optimizing the system to ensure high availability and meet quality and performance requirements.
