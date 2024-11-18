@@ -2,8 +2,6 @@
 date: '3'
 title: 'Dashboard'
 cover: './Dashboard.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
   - TypeScript
   - JavaScript
