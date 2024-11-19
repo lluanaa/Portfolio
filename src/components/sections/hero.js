@@ -12,7 +12,7 @@ const StyledHeroSection = styled.section`
   height: 100vh;
   padding: 0;
 
-  @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
+  @media (max-height: 300px) and (min-width: 300px), (max-width: 360px) {
     height: auto;
     padding-top: var(--nav-height);
   }
@@ -65,15 +65,14 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        <p>
-          Sou uma desenvolvedora Full Stack apaixonada por criar soluções digitais dinâmicas e
-          responsivas para web e dispositivos móveis. Construo interfaces amigáveis ao usuário e
-          sistemas de back-end robustos. Atualmente, estou focada em aprimorar minhas habilidades na
-          criação de aplicativos acessíveis e de alta qualidade na empresa{' '}
-          <a href="https://sischef.com/" target="_blank" rel="noreferrer">
-            Sischef
-          </a>
-        </p>
+        Trabalho com o desenvolvimento de soluções dinâmicas e responsivas para web e mobile. Minha
+        missão é construir interfaces intuitivas e sistemas de back-end eficientes, sempre focando
+        na entrega de aplicações acessíveis e de alta qualidade. Atualmente, estou empenhada em
+        evoluir continuamente minhas habilidades enquanto contribuo para projetos significativos na
+        empresa{' '}
+        <a href="https://sischef.com/" target="_blank" rel="noreferrer">
+          Sischef
+        </a>
       </p>
     </>
   );

@@ -60,8 +60,10 @@ const Contact = () => {
       <h2 className="title">Entre em contato!</h2>
 
       <p>
-        No momento, estou aberta a novas oportunidades de emprego e adoraria ouvir sobre. Sinta-se à
-        vontade para entrar em contato e falar comigo. Estou disponível para novos projetos!
+        Atualmente, estou em busca de novas oportunidades de trabalho e aberta a desafios! Se tiver
+        um projeto interessante ou quiser conversar, sinta-se à vontade para entrar em contato.{' '}
+        <br />
+        Estou disponível e animada para colaborar em novas ideias.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
