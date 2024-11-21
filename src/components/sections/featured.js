@@ -4,7 +4,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
-import { Icon } from '@components/icons';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledProjectsGrid = styled.ul`
@@ -84,9 +83,15 @@ const StyledProject = styled.li`
     }
     .project-image {
       grid-column: 1 / 8;
+      transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+      z-index: 1;
 
       @media (max-width: 768px) {
         grid-column: 1 / -1;
+      }
+      .project-image:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 30px -15px rgba(0, 0, 0, 0.3);
       }
     }
   }
@@ -283,21 +288,21 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
-        mix-blend-mode: screen;
+        background-color: none;
+        mix-blend-mode: normal;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      mix-blend-mode: normal;
+      filter: none;
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
+        filter: none !important;
       }
     }
   }
@@ -321,8 +326,6 @@ const Featured = () => {
               }
               tech
               github
-              external
-              cta
             }
             html
           }
@@ -348,21 +351,21 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Alguns projetos que trabalhei
       </h2>
 
       <StyledProjectsGrid>
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta } = frontmatter;
+            const { external, title, tech, cover } = frontmatter;
             const image = getImage(cover);
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    <p className="project-overline">Featured Project</p>
+                    <p className="project-overline">Projeto {i + 1}</p>
 
                     <h3 className="project-title">
                       <a href={external}>{title}</a>
@@ -381,7 +384,7 @@ const Featured = () => {
                       </ul>
                     )}
 
-                    <div className="project-links">
+                    {/* <div className="project-links">
                       {cta && (
                         <a href={cta} aria-label="Course Link" className="cta">
                           Learn More
@@ -397,14 +400,12 @@ const Featured = () => {
                           <Icon name="External" />
                         </a>
                       )}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
-                    <GatsbyImage image={image} alt={title} className="img" />
-                  </a>
+                  <GatsbyImage image={image} alt={title} className="img" />
                 </div>
               </StyledProject>
             );

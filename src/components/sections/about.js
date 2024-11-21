@@ -81,8 +81,8 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      mix-blend-mode: normal;
+      filter: none;
       transition: var(--transition);
     }
 
@@ -150,23 +150,18 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Olá! Meu nome é Luana e eu gosto de criar soluções digitais interativas e envolventes.
-              Meu interesse em desenvolvimento web começou quando descobri a alegria de criar
-              páginas web dinâmicas e aprender os fundamentos de HTML, CSS e JavaScript. Desde
-              então, tenho explorado maneiras de transformar ideias em experiências funcionais e
-              visualmente atraentes.
+              Sou apaixonada por criar soluções digitais interativas e proporcionar experiências
+              únicas. Meu interesse pelo desenvolvimento web começou ao descobrir o poder de
+              construir páginas dinâmicas e mergulhar nos fundamentos de HTML, CSS e JavaScript.
+              Desde então, tenho explorado formas criativas de transformar ideias em soluções
+              funcionais e visualmente cativantes.
             </p>
 
             <p>
               Avançando para hoje, tive a oportunidade de trabalhar em uma variedade de projetos,
               que vão desde desenvolvimento web e mobile full-stack até gerenciamento de banco de
               dados e integrações de API. Meu foco principal agora é criar experiências digitais
-              acessíveis e inclusivas enquanto colaboro em soluções impactantes, atualmente como
-              desenvolvedor na{' '}
-              <a href="https://sischef.com/" target="_blank" rel="noreferrer">
-                Sischef
-              </a>
-              .
+              acessíveis e inclusivas enquanto colaboro em soluções impactantes.
             </p>
 
             {/* <p>
@@ -178,7 +173,7 @@ const About = () => {
               &amp; React.
             </p> */}
 
-            <p>Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:</p>
+            <p>Tecnologias com as quais tenho trabalhado recentemente:</p>
           </div>
 
           <ul className="skills-list">
@@ -190,7 +185,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.png"
+              src="../../images/me.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
