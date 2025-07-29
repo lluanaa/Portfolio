@@ -61,18 +61,25 @@ const Hero = () => {
 
   const one = <h1>Olá! Meu nome é</h1>;
   const two = <h2 className="big-heading">Luana da Silva.</h2>;
-  const three = <h3 className="big-heading">Desenvolvedora Full Stack.</h3>;
+  const three = <h3 className="big-heading">Desenvolvedora Back-end.</h3>;
   const four = (
     <>
       <p>
-        Trabalho com o desenvolvimento de soluções dinâmicas e responsivas para web e mobile. Minha
-        missão é construir interfaces intuitivas e sistemas de back-end eficientes, sempre focando
-        na entrega de aplicações acessíveis e de alta qualidade. Atualmente, estou empenhada em
-        evoluir continuamente minhas habilidades enquanto contribuo para projetos significativos na
-        empresa{' '}
-        <a href="https://sischef.com/" target="_blank" rel="noreferrer">
-          Sischef
-        </a>
+        Atuo no desenvolvimento e manutenção de APIs em Node.js e TypeScript. Tenho experiência
+        lidando com integrações, fluxo de dados e lógica de negócio, colaborando para manter a
+        estrutura estável, eficiente e bem documentada.
+      </p>
+      <p>
+        Hoje, contribuo para o time da{' '}
+        <a href="https://pixlog.com.br/" target="_blank" rel="noreferrer">
+          Pixlog
+        </a>{' '}
+        aprimorando soluções já existentes, analisando problemas reais de operação e ajudando a
+        conectar tecnologias a necessidades do setor florestal.
+      </p>
+      <p>
+        Estou em constante evolução técnica, buscando me aprofundar no desenvolvimento de soluções
+        de alta qualidade e contribuir para a inovação tecnológica.
       </p>
     </>
   );

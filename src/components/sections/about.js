@@ -151,18 +151,12 @@ const About = () => {
           <div>
             <p>
               Sou apaixonada por criar soluções digitais interativas e proporcionar experiências
-              únicas. Meu interesse pelo desenvolvimento web começou ao descobrir o poder de
-              construir páginas dinâmicas e mergulhar nos fundamentos de HTML, CSS e JavaScript.
-              Desde então, tenho explorado formas criativas de transformar ideias em soluções
-              funcionais e visualmente cativantes.
+              únicas. Meu interesse pelo desenvolvimento começou ao descobrir o poder de construir
+              páginas dinâmicas e mergulhar nos fundamentos de HTML, CSS e JavaScript. Desde então,
+              tenho explorado formas criativas de transformar ideias em soluções funcionais.
             </p>
 
-            <p>
-              Avançando para hoje, tive a oportunidade de trabalhar em uma variedade de projetos,
-              que vão desde desenvolvimento web e mobile full-stack até gerenciamento de banco de
-              dados e integrações de API. Meu foco principal agora é criar experiências digitais
-              acessíveis e inclusivas enquanto colaboro em soluções impactantes.
-            </p>
+            <br />
 
             {/* <p>
               I also recently{' '}
@@ -173,7 +167,7 @@ const About = () => {
               &amp; React.
             </p> */}
 
-            <p>Tecnologias com as quais tenho trabalhado recentemente:</p>
+            <p>Tecnologias com as quais já trabalhei:</p>
           </div>
 
           <ul className="skills-list">
