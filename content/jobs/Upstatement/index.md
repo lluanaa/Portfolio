@@ -8,7 +8,7 @@ url: 'https://sischef.com/'
 ---
 
 - Desenvolvimento de aplicações web e mobile para sistemas de gestão de restaurantes.
-- Atuação com Java no backend (Spring Boot) e React/JavaScript no frontend.
+- Atuação com Java no backend (Spring Boot) e React.js no frontend.
 - Criação de interfaces responsivas com foco em usabilidade e integração com backend.
 - Desenvolvimento de aplicativos Android com React Native.
 - Escrita de testes unitários com JUnit para validação de regras de negócio.

@@ -130,16 +130,20 @@ const About = () => {
     'Java',
     'JSF',
     'TypeScript',
-    'React',
+    'React.js',
     'React Native',
     'Node.js',
     'MongoDB',
+    'Golang',
+    'Express.js',
     'Git',
     'HTML',
     'CSS',
     'Electron',
     'Tailwind CSS',
     'PostgreSQL',
+    'Docker',
+    'Google Cloud Storage',
   ];
 
   return (
@@ -149,14 +153,26 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-              Sou apaixonada por criar soluções digitais interativas e proporcionar experiências
-              únicas. Meu interesse pelo desenvolvimento começou ao descobrir o poder de construir
-              páginas dinâmicas e mergulhar nos fundamentos de HTML, CSS e JavaScript. Desde então,
-              tenho explorado formas criativas de transformar ideias em soluções funcionais.
-            </p>
+            <div>
+              <p>
+                Sou formada em Análise e Desenvolvimento de Sistemas pela Unipar - Universidade
+                Paranaense e encontrei no desenvolvimento uma forma de unir lógica e criatividade.
+              </p>
 
-            <br />
+              <p>
+                Meu interesse pela área começou ao descobrir o quanto HTML, CSS e JavaScript podiam
+                dar vida a ideias — desde pequenas interações até aplicações completas. Venho me
+                aprofundando na criação de soluções digitais funcionais e intuitivas, com foco em
+                experiências interativas que realmente fazem diferença para o usuário.
+              </p>
+
+              <p>
+                Gosto de transformar conceitos em produtos reais, sempre buscando aprender algo novo
+                a cada projeto.
+              </p>
+
+              <p>Tecnologias com as quais já trabalhei:</p>
+            </div>
 
             {/* <p>
               I also recently{' '}
@@ -166,8 +182,6 @@ const About = () => {
               that covers everything you need to build a web app with the Spotify API using Node
               &amp; React.
             </p> */}
-
-            <p>Tecnologias com as quais já trabalhei:</p>
           </div>
 
           <ul className="skills-list">
