@@ -65,7 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Atuo no desenvolvimento e manutenção de APIs em Node.js e TypeScript. Tenho experiência
+        Atuo no desenvolvimento e manutenção de APIs em Node.js, TypeScript e Go. Tenho experiência
         lidando com integrações, fluxo de dados e lógica de negócio, colaborando para manter a
         estrutura estável, eficiente e bem documentada.
       </p>
