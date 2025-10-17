@@ -1,15 +1,15 @@
 module.exports = {
-  email: 'lstylik13@gmail.com',
+  email: 'luanadasilva.dev@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
       url: 'https://github.com/lluanaa',
     },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/lluan.aa/',
-    },
+    // {
+    //   name: 'Instagram',
+    //   url: 'https://www.instagram.com/lluan.aa/',
+    // },
     // {
     //   name: 'Twitter',
     //   url: 'https://twitter.com/bchiang7',
